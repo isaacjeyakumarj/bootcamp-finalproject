@@ -161,10 +161,13 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-family:Markazi ;
+  text-transform: uppercase;
+  font-size: 20px;
   margin: 0;
+
   font-weight: 500;
-  color: var(--heading-color);
+  color: #ff5c26;
 }
 
 .header .header-social-links {
