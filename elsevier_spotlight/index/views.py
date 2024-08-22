@@ -7,3 +7,7 @@ def home(request):
     return render(request,'index.html')
     #return HttpResponse('this is homepage')
 
+def contact(request):
+    return render(request,'contact.html')
+    #return HttpResponse('this is homepage')
+
