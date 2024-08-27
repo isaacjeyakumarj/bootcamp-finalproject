@@ -36,13 +36,13 @@
 						<ul class="list-inline post-meta mb-2">
 							<li class="list-inline-item"><i class="ti-user mr-2"></i><a href="author.html">{{row.name}}</a>
 							</li>
-							<li class="list-inline-item">{{row.date}}</li>
+							<li class="list-inline-item">{{row.created_on}}</li>
 							<li class="list-inline-item">Categories : {{row.categories}} 
 							</li>
 							<li class="list-inline-item">Tags : {{row.tags}} 
 							</li>
 						</ul>
-						<p>{{row.text}}</p> <a href="post-elements.html" class="btn btn-outline-primary">Continue Reading</a>
+						<p>{{row.text}}</p> <a href="{% url 'post_detail' row.slug %}"  class="btn btn-outline-primary">Continue Reading</a>
 					</div>
 				</article>
 
